@@ -1,0 +1,646 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+
+
+<!-- CSS -->
+<!-- END CSS -->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!-- Page Title Here -->
+    <title>Simsim API Free</title>
+
+    <!-- Disable screen scaling-->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+    
+    <!-- Google Meta -->
+    <meta charset="utf-8">
+    <meta name="description" content="Free API Simsimi for Developers, API Simsimi miễn phí cho nhà phát triển botchat"/>
+    <meta name="author" content="CopCute x MeoCop">
+    <meta name="copyright" content="CopCute x MeoCop">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Twitter Meta -->
+    <meta name="twitter:site" content="simsimi">
+    <meta name="twitter:creator" content="simsimi">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Simsimi API Free">
+    <meta name="twitter:description" content="Free API Simsimi for Developers">
+    <meta name="twitter:image" content="https://saysumi.com/static/images/house-img2.png">
+
+    <!-- Facebook Meta -->
+    <meta property="og:url" content="https://api.simsimi.net/">
+    <meta property="og:title" content="Simsimi API Free">
+    <meta property="og:description" content="Free API Simsimi for Developers">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://saysumi.com/static/images/house-img2.png">
+    <meta property="og:image:secure_url" content="https://saysumi.com/static/images/house-img2.png">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+    <!-- Web fonts and Web Icons -->
+    <link rel="stylesheet" href="./fonts/opensans/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/bebas/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/ionicons.min.css">
+    <link rel="stylesheet" href="./fonts/font-awesome.min.css">
+
+    <!-- Vendor CSS style -->
+    <link rel="stylesheet" href="./css/pageloader.css">
+
+    <!-- Uncomment below to load individualy vendor CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./js/vendor/swiper.min.css">
+    <link rel="stylesheet" href="./js/vendor/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="./js/vegas/vegas.min.css">
+
+    <!-- Main CSS files -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- add alt layout here -->
+    <link rel="stylesheet" href="./css/style-default.css">
+
+    <script src="./js/vendor/modernizr-2.7.1.min.js"></script>
+</head>
+
+<body id="menu" class="body-page">
+    <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- Page Loader : just comment these lines to remove it -->
+    <div class="page-loader" id="page-loader">
+        <div>
+            <div class="icon ion-spin"></div>
+            <p>Connecting...</p>
+        </div>
+    </div>
+
+    <!-- BEGIN OF site header Menu -->
+    <header class="page-header navbar page-header-alpha scrolled-white menu-right topmenu-right">
+
+        <!-- Begin of menu icon toggler -->
+        <button class="navbar-toggler site-menu-icon" id="navMenuIcon">
+            <!-- Available class : menu-icon-dot / menu-icon-thick /menu-icon-random -->
+            <span class="menu-icon menu-icon-random">
+                <span class="bars">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </span>
+            </span>
+        </button>
+        <!-- End of menu icon toggler -->
+
+        <!-- Begin of logo/brand -->
+        <a class="navbar-brand" href="https://simsimi.copcute.pw/test/">
+            <span class="logo-text">
+                SIMSIMI
+            </span>
+        </a>
+        <!-- End of logo/brand -->
+
+        <!-- begin of menu wrapper -->
+        <div class="all-menu-wrapper" id="navbarMenu">
+            <!-- Begin of top menu -->
+            <nav class="navbar-topmenu">
+                <!-- Begin of CTA Actions, & Icons menu -->
+                <ul class="navbar-nav navbar-nav-actions">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-white btn-round" href="https://simsimi.copcute.pw">
+                            Chat Simsimi Online
+                        </a>
+                    </li>
+                </ul>
+                <!-- End of CTA & Icons menu -->
+            </nav>
+            <!-- End of top menu -->
+
+            <!-- Begin of hamburger mainmenu menu -->
+            <nav class="navbar-mainmenu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html#home">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+            <!-- End of hamburger mainmenu menu -->
+
+            <!-- Begin of sidebar nav menu params class: text-only / icon-only-->
+            <nav class="navbar-sidebar ">
+                <ul class="navbar-nav" id="qmenu">
+                    <li class="nav-item" data-menuanchor="home">
+                        <a href="#home">
+                            <i class="icon ion-ios-home-outline"></i>
+                            <span class="txt">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" data-menuanchor="usages">
+                        <a href="#usages">
+                            <i class="icon ion-ios-information-outline"></i>
+                            <span class="txt">Usages</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" data-menuanchor="team">
+                        <a href="#team">
+                            <i class="icon ion-ios-list-outline"></i>
+                            <span class="txt">Team</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" data-menuanchor="TestAPI">
+                        <a href="#TestAPI">
+                            <i class="icon ion-ios-list-outline"></i>
+                            <span class="txt">Test API</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item" data-menuanchor="contact">
+                        <a href="#contact">
+                            <i class="icon ion-ios-telephone-outline"></i>
+                            <span class="txt">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- End of sidebar nav menu -->
+        </div>
+        <!-- end of menu wrapper -->
+
+    </header>
+    <!-- END OF site header Menu-->
+                       
+    <!-- BEGIN OF page cover -->
+    <div class="hh-cover page-cover">
+        <!-- Cover Background -->
+        <div class="cover-bg bg-img " data-image-src="./6.jpg"></div>
+
+        <!-- Particles as background - uncomment below to use particles/snow -->
+        <div id="particles-js" class="cover-bg pos-abs full-size bg-color" data-bgcolor="rgba(2, 3, 10, 0.7)"></div>
+    </div>
+    <!--END OF page cover -->
+
+    <!-- BEGIN OF page main content -->
+    <main class="page-main page-fullpage main-anim" id="mainpage">
+
+        <!-- Begin of home section -->
+        <div class="section section-home fullscreen-md fp-auto-height-responsive " data-section="home">
+            <!-- Begin of section wrapper -->
+            <div class="section-wrapper">
+                <!-- content -->
+                <div class="section-content anim">
+                    <div class="row">
+                        <div class="col-12 col-md-6 text-left">
+                            <!-- title and description -->
+                            <div class="title-desc">
+                                <h2 class="display-4 display-title home-title bordered anim-1">Free Simsimi API</h2>
+                                <h4 class="anim-2">A simple way to get unlimited response chat from SIMSIMI server !</h4>
+                            </div>
+
+                            <!-- Action button -->
+                            <div class="btns-action anim-3">
+                                <a class="btn btn-outline-white btn-round" href="#usages">
+                                    How to use
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- begin of right content -->
+                        <div class="col-12 col-md-6 right-content hidden-sm center-vh">
+                            <!-- content -->
+                            <div class="section-content">
+                                <!-- illustartion -->
+                                <div class="illustr zoomout-1">
+                                    <img class="logo" src="./img/sumi_journalist.png" style="height:300px;" alt="Logo">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of right content -->
+                    </div>
+                </div>
+
+
+                <!-- Arrows scroll down/up -->
+                <footer class="section-footer scrolldown">
+                    <a class="down">
+                        <span class="icon"></span>
+                        <span class="txt">Scroll Down</span>
+                    </a>
+                </footer>
+            </div>
+            <!-- End of section wrapper -->
+        </div>
+        <!-- End of home section -->
+
+        <!-- Begin of description section -->
+        <div class="section section-description fp-auto-height-responsive " data-section="usages">
+            <!-- Begin of section wrapper -->
+            <div class="section-wrapper center-vh dir-col anim">
+                <!-- title -->
+                <div class="section-title text-center">
+                    <h5 class="title-bg">Usages</h5>
+                    <h2 class="display-4 display-title anim-2">"UNLIMITED" REQUEST API</h2>
+                </div>
+
+                <!-- content -->
+                <div class="section-content reduced anim">
+                    <!-- title and description -->
+                    <div class="title-desc anim-3">
+                        <p style="text-align: center;">Just use messages and language as params to the API URL below</p>
+                        <p style="text-align: center;">API for your product : </p>
+                        <button id="apiClick" onclick="copytoclipboard()" class="btn btn-outline-white btn-normal">
+                            API.SIMSIMI.NET/<b style="color: gold;">V1</b>/?TEXT=<i><b style="color: gold;">[MESSAGES]</b></i>&amp;LANG=<i><b style="color: gold;">[LANGUAGE]</b></i>&amp;CF=<i><b style="color: gold;">[CHATFUEL]</b></i>
+                        </button>
+                        <br />
+                        
+
+                        <hr>
+                        <p>Example Request: <code class="language-bash">GET https://api.simsimi.net/v1/?text=hi&lang=vi_VN</code></p>
+                        <ul class="list-group text-bold">
+                            <li><code>text</code> : Sentence that a user entered in your chatbot(1000 characters max.)</li>
+                            <li><code>data</code> : simsimi.net</li>
+                            <li><code>lang</code> : Language code (vi, en, ph, zh, ch, ru, id, ko, ar, fr, ja, es, de, ...)</li>
+                            <li><code>cf</code> : Chatfuel Json [True] or [False]</li>
+                        </ul>
+                        <p>Response ChatFuel: <code class="language-bash">{"messages":[{"text":"Xin chào"}],"database":"true"}</code></p>
+                        <p>Response: <code class="language-bash">{"success":"Xin chào","database":"true"}</code></p> 
+                    </div>
+
+                </div>
+
+                <!-- Arrows scroll down/up -->
+                <footer class="section-footer scrolldown">
+                    <a class="down">
+                        <span class="icon"></span>
+                        <span class="txt">Team</span>
+                    </a>
+                </footer>
+            </div>
+            <!-- End of section wrapper -->
+        </div>
+        <!-- End of description section -->
+  
+        <!-- Begin of description section -->
+        <div class="section section-description fp-auto-height-responsive " data-section="team">
+            <!-- Begin of section wrapper -->
+            <div class="section-wrapper center-vh dir-col anim">
+                <!-- title -->
+                <div class="section-title text-center">
+                    <h5 class="title-bg">Team</h5>
+                </div>
+
+                <!-- content -->
+                <div class="section-content anim text-center">
+                    <!-- text or illustration order are manipulated via Bootstrap order-md-1, order-md-2 class -->
+                    <!-- begin of item -->
+                    <div class="item row justify-content-between">
+                        <!-- img-frame-normal demo -->
+                        <div class="col-12 col-sm-6 col-md-12 center-vh">
+                            <div class="section-content anim translateUp">
+                                <div class="images text-center">
+                                    <div class="img-avatar-alpha">
+                                        <div class="img-1 shadow">
+                                            <a href="https://fb.com/100039847550995">
+                                                <img class="img" src="./img/team_copcute.jpg" alt="Image" style="width: 120px; height:120px;">
+                                            </a>
+                                        </div>
+                                        <div class="legend text-center pos-abs">
+                                            <h5>Hoang Giap</h5>
+                                            <p class="small">Uynn ngáo</p>
+                                            <div class="icons">
+                                                <a class="icon-btn" href="https://fb.com/simsimi.net">
+                                                    <i class="icon fa fa-facebook"></i>
+                                                </a>
+                                                <a class="icon-btn" href="https://www.instagram.com/cop_cu.te/">
+                                                    <i class="icon fa fa-instagram"></i>
+                                                </a>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- end of item -->
+                </div>
+
+                <!-- Arrows scroll down/up -->
+                <footer class="section-footer scrolldown">
+                    <a class="down">
+                        <span class="icon"></span>
+                        <span class="txt">Test API</span>
+                    </a>
+                </footer>
+            </div>
+            <!-- End of section wrapper -->
+        </div>
+        <!-- End of description section -->
+
+        <!-- Begin of list feature section -->
+        <div class="section section-list-feature fp-auto-height-responsive " data-section="TestAPI">
+            <!-- Begin of section wrapper -->
+            <div class="section-wrapper">
+                <!-- title -->
+                <div class="section-title text-center">
+                    <h2 class="display-title title-bg">Test API</h2>
+                </div>
+
+                <!-- text or illustration order are manipulated via Bootstrap order-md-1, order-md-2 class -->
+                <!-- begin of item -->
+                <div class="section-content anim text-center">
+
+                	<div class="row align-items-center justify-content-center">
+
+                		<div class="col-12 col-md-8 col-lg-6">
+                			<!-- Registration form container-->
+                			<form action="https://api.simsimi.net/v1/" class="send_email_form form-container form-container-transparent form-container-white" id="APItest" novalidate="novalidate">
+                				<div class="form-desc">
+                					<h2 class="display-4 display-title  anim-2">Test API</h2>
+                					<p class="invite  anim-3">Input <i style="color: gold">messages</i> and <i style="color: gold">language</i> or <i style="color: gold">key</i> here</p>
+
+                				</div>
+                				<div class="form-input  anim-4">
+                					<div class="form-group text">
+                						<label for="messagesParam">Messages</label>
+                                        <input id="messagesParam" type="text" name="text" placeholder="Messages" class="form-control-line form-success-clean" required>
+                                    </div>
+                					<!-- FormTextLanguage
+                					
+                					<div class="form-group lang">
+                						<label for="lanParam">Language</label>
+                						<input id="lanParam" name="lang" class="form-control-line" type="text" placeholder="Language" value="vi_VN" required>
+                					</div>
+                					                        -->
+                					<div class="form-group lang" >
+                					    <label for="lanParam">Language</label>
+                					    <p><select name="lang" class="form-control" id="lanParam" placeholder="Language" required>
+                                            <option selected="selected" value="vi" >vi (Tiếng Việt)</option>
+                                            <option value="en">en (English)</option>
+                                            <option value="ph">ph (Filipino)</option>
+                                            <option value="zh">zh (中文[简体])</option>
+                                            <option value="ch">ch (中文[繁體])</option>
+                                            <option value="ru">ru (Русский<)</option>
+                                            <option value="id">id (Bahasa Indonesia)</option>
+                                            <option value="ko">ko (한국어)</option>
+                                            <option value="ar">ar (العربية)</option>
+                                            <option value="fr">fr (Français)</option>
+                                            <option value="ja">ja (日本語)</option>
+                                            <option value="es">es (Español)</option>
+                                            <option value="de">de (Deutsch)</option>
+                                            <option value="en">Update ...</option>
+                                            
+                                        </select></p>
+                					</div>
+                					<div class="form-group key">
+                						<label for="lanParam">Key</label>
+                						<input id="lanParam" name="key" class="form-control-line" type="text" placeholder="Key" value="API-TEST-WEB" required>
+                					</div>
+                					<div class="form-group mb-0">
+                						<div>
+                							<p class="email-ok invisible form-text-feedback form-success-visible">Something is wrong! Try again!
+                							</p>
+                						</div>
+                						<button class="btn btn-white btn-round btn-full">Request</button>
+                					</div>
+                				</div>
+                			</form>
+                		</div>
+                	</div>
+                </div>
+                <!-- end of item -->
+
+                <!-- Arrows scroll down/up -->
+                <footer class="section-footer scrolldown">
+                    <a class="down">
+                        <span class="icon"></span>
+                        <span class="txt">Scroll</span>
+                    </a>
+                </footer>
+            </div>
+            <!-- End of section wrapper -->
+        </div>
+        <!-- End of list feature section -->
+
+        <!-- Begin of contact section -->
+        <div class="section section-contact fp-auto-height-responsive no-slide-arrows " data-section="contact">
+
+            <!-- begin of information slide -->
+            <div class="slide" id="information" data-anchor="information">
+                <!-- Begin of slide section wrapper -->
+                <div class="section-wrapper">
+                    <!-- title -->
+                    <div class="section-title text-center">
+                        <h5 class="title-bg">Contact</h5>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <!-- content -->
+                            <div class="section-content anim text-left">
+                                <!-- title and description -->
+                                <div class="title-desc">
+                                    <div class="anim-2">
+                                        <h5>Customer Service</h5>
+                                        <h2 class="display-4 display-title">Contact</h2>
+                                        <p>Please contact us for any enquiries</p>
+                                    </div>
+                                    <div class="address-container anim-3">
+
+                                        <div class="row">
+                                            <div class="col-12 col-md-12 col-lg-6">
+                                                <h4>Contact</h4>
+                                                <p>Call: 1900 1001</p>
+                                                <p>Email: copgamingtq@gmail.com</p>
+                                            </div>
+                                            <div class="col-12 col-md-12 col-lg-6">
+                                                <h4>Address</h4>
+                                                <p>
+                                                    Trung Mon, Yen Son,
+                                                    <br>TuyenQuang, VietNam
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Action button -->
+                                <div class="btns-action anim-4">
+                                    <a class="btn btn-outline-white btn-round" href="#contact/message">
+                                        <span class="txt">Send Message</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+
+                        </div>
+                    </div>
+                </div>
+                <!-- End of slide section wrapper -->
+            </div>
+            <!-- end of information slide -->
+
+            <!-- begin of message slide -->
+            <div class="slide" id="message" data-anchor="message">
+                <!-- Begin of slide section wrapper -->
+                <div class="section-wrapper">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-md-6 center-vh">
+                            <!-- content -->
+                            <div class="section-content anim text-left">
+                                <!-- title and description -->
+                                <div class="title-desc">
+                                    <div>
+                                        <h5>Customer Service</h5>
+                                        <h2 class="display-4 display-title">Email Us</h2>
+                                        <p>For questions about our company and products, please contact us.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Action button -->
+                                <div class="btns-action">
+                                    <a class="btn btn-outline-white btn-round" href="#contact/information">
+                                        <span class="txt">Information</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-5">
+                            <!-- content -->
+                            <div class="section-content anim text-left">
+                                <!-- title and description -->
+                                <div class="">
+                                    <div class="form-container form-container-card">
+                                        <!-- Message form container -->
+                                        <form class="send_message_form message form" method="POST" action="https://api.simsimi.net/ajaxserver/serverfile.php" id="message_form">
+                                            <div class="form-group name">
+                                                <label for="mes-name">Name :</label>
+                                                <input id="mes-name" name="name" type="text" placeholder="" class="form-control-line form-success-clean" required>
+                                            </div>
+                                            <div class="form-group email">
+                                                <label for="mes-email">Email :</label>
+                                                <input id="mes-email" type="email" placeholder="" name="email" class="form-control-line form-success-clean" required>
+                                            </div>
+                                            <div class="form-group no-border">
+                                                <label for="mes-text">Message</label>
+                                                <textarea id="mes-text" placeholder="..." name="message" class="form-control form-control-outline thick form-success-clean" required></textarea>
+
+                                                <div>
+                                                    <p class="message-ok invisible form-text-feedback form-success-visible">
+                                                        Your message has been sent, thank you.</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="btns">
+                                                <button id="submit-message" class="btn btn-normal btn-white btn-round btn-full email_b" name="submit_message">
+                                                    <span class="txt">Send</span>
+                                                    <span class="arrow-icon"></span>
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of slide section wrapper -->
+            </div>
+            <!-- end of message slide -->
+
+        </div>
+        <!-- End of contact section -->
+    </main>
+    <!-- END OF page main content -->
+
+    <!-- BEGIN OF page footer -->
+    <footer id="site-footer" class="page-footer">
+        <!-- Left content -->
+        <div class="footer-left">
+
+        </div>
+
+        <!-- Right content -->
+        <div class="footer-right">
+            <ul class="social">
+                <li>
+                    <a href="https://www.facebook.com/simsimi.net/">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/copcute">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/cop_cu.te/">
+                        <i class="icon fa fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        
+
+    </footer>
+    <!-- END OF site footer -->
+
+
+  
+  
+
+
+    <!-- scripts -->
+    <!-- All Javascript plugins goes here -->
+    <script src="./js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!-- All vendor scripts -->
+    <script src="./js/vendor/scrolloverflow.min.js"></script>
+    <script src="./js/vendor/all.js"></script>
+    <script src="./js/particlejs/particles.min.js"></script>
+
+    <!-- Countdown script -->
+    <script src="./js/jquery.downCount.js"></script>
+
+    <!-- Form script -->
+    <script src="./js/form_script.js"></script>
+
+    <!-- Javascript main files -->
+    <script src="./js/main.js"></script>
+
+    <script src="js/particlejs/particles-init.js"></script>
+
+    <script>
+        function copytoclipboard() {
+              var el = document.createElement('textarea');
+              el.value = 'https://api.simsimi.net/v1/?text=[messages]&lang=[language]&cf=false';
+              el.setAttribute('readonly', '');
+              el.style = { position: 'absolute', left: '-9999px' };
+              document.body.appendChild(el);
+              el.select();
+              document.execCommand('copy');
+              document.body.removeChild(el);
+              alert('Copy API to clipboard');
+            }
+    </script>
+    
+</body>
+
+</html>
