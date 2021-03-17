@@ -1,0 +1,88 @@
+a {
+    color: #f8204b;
+}
+
+a:hover {
+    color: rgba(248, 32, 75, 0.8);
+}
+
+.page-header-alpha .navbar-mainmenu .nav-item a:hover {
+    color: #f8204b;
+}
+
+.btn-white {
+    color: #ffffff;
+    border: 1px solid transparent;
+    background-color: #f8204b;
+}
+
+.btn-white:hover {
+    background-color: rgba(248, 32, 75, 0.8);
+    color: #ffffff;
+}
+
+.btn-outline-primary {
+    color: #f8204b;
+    border-color: currentColor;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    color: rgba(248, 32, 75, 0.5);
+    border-color: currentColor;
+}
+
+.btn-transp-arrow.btn-primary.active,
+.btn-transp-arrow.btn-primary:active,
+.btn-transp-arrow.btn-primary:hover {
+    background-color: rgba(77, 77, 77, 0.05);
+    color: #8b8b8b;
+    box-shadow: none;
+}
+
+
+/* subscription form */
+
+.form-container-transparent.form-container-white .form-desc h4 {
+    color: #ffffff;
+}
+
+.form-container-transparent.form-container-white .form-input label {
+    color: #ffffff;
+}
+
+.form-control-outline,
+.form-control-line {
+    border-color: #ffffff;
+}
+
+.form-control-outline:focus,
+.form-control-line:focus {
+    border-color: #adadad;
+}
+
+.page-cover:after {
+    content: "";
+    background: linear-gradient(to left, #04A5E4, #04151a);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+.image-blurred-edge {
+    background-image: url('../img/logo_big.png');
+    width: 200px;
+    height: 200px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px white inset;
+}
+
+.logo-text {
+    color: #0774a1;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-text-stroke: 2px #2BB9E9;
+}
