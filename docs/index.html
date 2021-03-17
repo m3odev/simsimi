@@ -361,7 +361,7 @@
 
                 		<div class="col-12 col-md-8 col-lg-6">
                 			<!-- Registration form container-->
-                			<form action="https://api.simsimi.net/v1/" class="send_email_form form-container form-container-transparent form-container-white" id="APItest" novalidate="novalidate">
+                			<form action="https://api.simsimi.net/v1/index.php" class="send_email_form form-container form-container-transparent form-container-white" id="APItest" novalidate="novalidate">
                 				<div class="form-desc">
                 					<h2 class="display-4 display-title  anim-2">Test API</h2>
                 					<p class="invite  anim-3">Input <i style="color: gold">messages</i> and <i style="color: gold">language</i> or <i style="color: gold">key</i> here</p>
@@ -523,7 +523,7 @@
                                 <div class="">
                                     <div class="form-container form-container-card">
                                         <!-- Message form container -->
-                                        <form class="send_message_form message form" method="GET" action="https://api.simsimi.net/ajaxserver/serverfile.php" id="message_form">
+                                        <form class="send_message_form message form" method="POST" action="https://api.simsimi.net/ajaxserver/serverfile.php" id="message_form">
                                             <div class="form-group name">
                                                 <label for="mes-name">Name :</label>
                                                 <input id="mes-name" name="name" type="text" placeholder="" class="form-control-line form-success-clean" required>
