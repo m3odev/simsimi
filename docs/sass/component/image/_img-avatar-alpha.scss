@@ -1,0 +1,27 @@
+.img-avatar-alpha{
+    position: relative;
+    // $imgW: 300px;
+    .img-1{
+        padding: 0 16px;
+        padding-bottom: 16px;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-radius: 800px;
+        z-index: 1;
+        border: 2px solid $white;
+        transition: 0.3s;
+    }
+    &:hover{
+        img{
+            box-shadow: 0 0 40px rgba(0,0,0,0.15);
+            border: 8px solid $white;
+        }
+    }
+    .legend{
+        margin-top: 0px;
+    }
+}
+

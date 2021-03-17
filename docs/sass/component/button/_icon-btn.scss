@@ -1,0 +1,15 @@
+
+
+.icon-btn {
+    padding-left: 8px;
+    padding-right: 8px;
+    display: inline-block;
+    transition: 0.3s;
+    color: $white;
+    .icon {
+        font-size: 32px;
+    }
+    &:hover {
+        color: rgba(white, 0.5);
+    }
+}

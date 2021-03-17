@@ -1,0 +1,53 @@
+.img-frame-normal{
+    position: relative;
+    img{
+        width: 100%;
+        height: auto;
+    }
+    $thickness: 8px;
+    &.portrait{
+        .img-1{
+            max-width: 320px;
+        }
+    }
+    .img-1{
+        width: 100%;
+        max-width: 420px;
+        position: relative;
+        img{
+            position: relative;
+            z-index: 1;
+        }
+        a{
+            img{
+                transition: 0.2s;
+                box-shadow: 0 0 0px rgba(0,0,0,0.1);
+            }
+            &:hover{
+                img{
+                    background: $black;
+                    box-shadow: 0 5px 80px rgba(0,0,0,0.15);
+                }
+            }
+
+        }
+        &.shadow{
+            box-shadow: 0 0 40px rgba(0,0,0,0.3);
+        }
+    }
+    .legend{
+        margin-top: 16px;
+        @media (min-width: $medium-up) {
+            // position: absolute;
+            width: 100%;
+            &.pos-abs{
+                position: absolute;
+            }
+        }
+        @media (max-height: 480px) {
+            &.pos-abs{
+                position: relative;
+            }
+        }
+    }
+}
