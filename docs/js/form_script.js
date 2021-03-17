@@ -9,7 +9,7 @@
 
 	$.fn.initForm = function (options) {
 		var settings = $.extend({
-			type: 'post',
+			type: 'get',
 			serverUrl: '#',
 			successClean: this.find('.form-success-clean'),
 			successGone: this.find('.form-success-gone'),
