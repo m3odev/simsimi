@@ -1,3 +1,3 @@
 # api.simsimi.net
 
-### API MAKE BY CopCute
+### API MAKE BY COPCUTE
