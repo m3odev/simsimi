@@ -9,7 +9,7 @@
 
 	$.fn.initForm = function (options) {
 		var settings = $.extend({
-			type: 'get',
+			type: 'post',
 			serverUrl: 'https://api.simsimi.net/ajaxserver/server.php',
 			successClean: this.find('.form-success-clean'),
 			successGone: this.find('.form-success-gone'),
